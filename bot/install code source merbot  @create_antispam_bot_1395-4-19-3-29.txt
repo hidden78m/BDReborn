@@ -1,0 +1,46 @@
+﻿**نکته مهم** خاهشا فيلم را مشاهده کنيد . طبق اون پيش بريد
+
+سلام
+آموزش نصب سورس MERBOT
+ 
+آموزش ساخت ربات توسط 
+@alireza_pt
+در کانال آموزشي ساخت ربات ضد اسپم تلگرام به آيدي
+@create_antispam_bot
+ 
+در ابتدا ارور redis رو برطرف کنيد با کد زير
+
+sudo service redis-server start redis-cli
+
+کد ها رو در زير ميزارم طبق فيلم آموزشي عمل کنيد
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make unzip git redis-server g++
+
+بعد اين کد
+cd $HOME
+
+و بعد گيت کلون از سورس
+git clone https://github.com/rizaumami/merbot.git
+و بعد ادامه مراحل
+cd merbot
+./merbot install
+./merbot
+بعد از اين مرحله از شما توکن ربات رو ميخواد براي  هلپر api
+
+بعد يوزرنيم ربات api شما 
+مانند:
+@apisecuritybot
+
+و بعد شماره ربات اصلي cli
+
+
+و سپس ربات رو طبق فيلم خاموش کنيد و خودتان را طبق فيلم سودو کنيد :)
+
+موفق باشيد
+مديريت کانال
+
+@alireza_PT
+
+
